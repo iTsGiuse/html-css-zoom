@@ -18,33 +18,59 @@ footer{
 }
 
 .container{
-    border: 1px solid;
+    border: 1px solid transparent;
+}
+
+.container_header{
     display: flex;
     justify-content: flex-end;
     gap: 10px;
 }
 
-.container_color_header{
-    border-color: transparent;
+.container_footer{
+    display: flex;
+    justify-content: space-between;
 }
 
-.container_color_footer{
-    border-color: grey;
+.box{
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.box_icon{
+    border: 1px solid transparent;
+    display: block;
+    text-align: center;
+    font-size: 25px;
 }
 
 .btn{
     border: 1px solid transparent;
-    border-radius: 10px;
     display: flex;
     padding: 5px;
 }
-
 .btn_header{
+    border-radius: 10px;
     background-color: grey;
     color: white;
 }
 
 .btn_footer{
     background-color: grey;
+    color: red;
+    text-align: center;
+    padding: 10px;
+}
+
+.freccia_su{
+    margin-top: 10px;
+}
+i {
     color: white;
+}
+.txt{
+    color: white;
+    font-size: 18px;
 }
