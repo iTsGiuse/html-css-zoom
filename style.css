@@ -18,6 +18,7 @@ footer{
     height: 60px;
 }
 
+/* INIZIO CONTAINER */
 .container{
     border: 1px solid transparent;
 }
@@ -39,13 +40,16 @@ footer{
     display: flex;
     justify-content: space-between;
     padding-left: 5px;
+    padding-left: 5px;
 }
+/* FINE CONTAINER */
 
 .imagine{
     display: block;
     margin: 3px;
 }
 
+/* INIZIO BOX */
 .box{
     border: 1px solid transparent;
     display: flex;
@@ -67,7 +71,9 @@ footer{
     color: white;
     font-size: 10px;
 }
+/* FINE BOX*/
 
+/* INIZIO BTN */
 .btn{
     border: 1px solid transparent;
     display: flex;
@@ -75,7 +81,7 @@ footer{
 }
 .btn_header{
     border-radius: 10px;
-    background-color: grey;
+    background-color:  #4a4a4a;
     color: white;
 }
 .btn_footer{
@@ -84,7 +90,9 @@ footer{
     text-align: center;
     padding-top: 15px;
 }
+/* FINE BTN */
 
+/* INZIO TESTO */
 .freccia_su{
     margin-top: 10px;
 }
@@ -97,3 +105,4 @@ i {
     color: white;
     font-size: 18px;
 }
+/* FINE TESTO */
