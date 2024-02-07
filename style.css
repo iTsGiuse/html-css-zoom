@@ -3,3 +3,48 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+header{
+    background-color: black;
+    height: 80px;
+}
+main{
+    background-color: black;
+    height: calc(100vw - 180px);
+}
+footer{
+    background-color: rgba(7, 7, 7, 0.222);
+    height: 100px;
+}
+
+.container{
+    border: 1px solid;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.container_color_header{
+    border-color: transparent;
+}
+
+.container_color_footer{
+    border-color: grey;
+}
+
+.btn{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    padding: 5px;
+}
+
+.btn_header{
+    background-color: grey;
+    color: white;
+}
+
+.btn_footer{
+    background-color: grey;
+    color: white;
+}
