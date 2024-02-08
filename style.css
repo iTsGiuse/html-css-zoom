@@ -47,6 +47,7 @@ footer{
 .imagine{
     display: block;
     margin: 3px;
+    position: relative;
 }
 
 /* INIZIO BOX */
@@ -64,12 +65,13 @@ footer{
 }
 .box_inside_imagine{
     border: 1px solid transparent;
-    background-color: #65717e;
+    background-color: rgba(215, 215, 215, 0.1);
     width: 96px;
-    position: relative;
-    bottom: 18px;
+    position: absolute;
+    bottom: 5px;
     color: white;
     font-size: 10px;
+    padding: 2px;
 }
 /* FINE BOX*/
 
@@ -77,7 +79,8 @@ footer{
 .btn{
     border: 1px solid transparent;
     display: flex;
-    padding: 5px;
+    padding: 10px;
+    cursor: pointer;
 }
 .btn_header{
     border-radius: 10px;
